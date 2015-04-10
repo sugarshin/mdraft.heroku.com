@@ -1,5 +1,3 @@
-#= require zeroclipboard
-
 Notes = require 'collection/notes'
 AppView = require 'view/appview'
 NoteListView = require 'view/notelistview'
