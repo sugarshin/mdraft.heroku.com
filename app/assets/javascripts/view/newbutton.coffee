@@ -1,13 +1,12 @@
-_ = require 'underscore'
-$ = require 'jquery'
+_ = require 'lodash'
 Backbone = require 'backbone'
-Backbone.$ = $
+Backbone.$ = $ = require 'jquery'
+{ ViewBase } = require '../base'
 
-class NewButton extends Backbone.View
+module.exports =
+class NewButton extends ViewBase
   events:
     'click': 'newNote'
 
   newNote: ->
     @collection.add {}
-
-module.exports = NewButton

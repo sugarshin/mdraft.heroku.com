@@ -1,9 +1,10 @@
-_ = require 'underscore'
-$ = require 'jquery'
+_ = require 'lodash'
 Backbone = require 'backbone'
-Backbone.$ = $
+Backbone.$ = $ = require 'jquery'
+{ ModelBase } = require '../base'
 
-class Note extends Backbone.Model
+module.exports =
+class Note extends ModelBase
   defaults: ->
     return {
       title: '無題'
@@ -30,5 +31,3 @@ class Note extends Backbone.Model
   activate: -> @set 'active', true
 
   deactivate: -> @set 'active', false
-
-module.exports = Note

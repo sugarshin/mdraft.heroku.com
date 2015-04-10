@@ -1,12 +1,12 @@
-_ = require 'underscore'
-$ = require 'jquery'
+_ = require 'lodash'
 Backbone = require 'backbone'
+Backbone.$ = $ = require 'jquery'
+{ ViewBase } = require '../base'
 NoteBody = require './notebody'
 Markdown = require './markdown'
 
-Backbone.$ = $
-
-class DeleteButton extends Backbone.View
+module.exports =
+class DeleteButton extends ViewBase
   events:
     'click': 'onClick'
 
@@ -35,5 +35,3 @@ class DeleteButton extends Backbone.View
       )
 
       md.toHTML().start()
-
-module.exports = DeleteButton

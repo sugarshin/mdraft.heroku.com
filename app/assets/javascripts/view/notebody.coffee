@@ -1,9 +1,10 @@
-_ = require 'underscore'
-$ = require 'jquery'
+_ = require 'lodash'
 Backbone = require 'backbone'
-Backbone.$ = $
+Backbone.$ = $ = require 'jquery'
+{ ViewBase } = require '../base'
 
-class NoteBody extends Backbone.View
+module.exports =
+class NoteBody extends ViewBase
   initialize: ->
     html = '<textarea class="textarea" id="textarea"></textarea>'
 
@@ -24,5 +25,3 @@ class NoteBody extends Backbone.View
       @model = @collection.at(@collection.length - 1)
       $('.js-title-bind').text @model.get('title')
       $('.js-time-bind').text @model.get('created')
-
-module.exports = NoteBody

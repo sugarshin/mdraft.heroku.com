@@ -2,12 +2,8 @@
   "name": "mdraft.heroku.com",
   "version": "0.0.1",
   "description": "mdraft.heroku.com",
-  "main": "index.js",
   "directories": {
     "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -27,10 +23,8 @@
     "backbone": "^1.1.2",
     "backbone.localstorage": "^1.1.16",
     "jquery": "^2.1.3",
+    "lodash": "^3.6.0",
     "marked": "^0.3.3",
-    "octicons": "^2.2.0",
-    "throttle-debounce": "^0.1.1",
-    "underscore": "^1.8.3",
     "zeroclipboard": "^2.2.0"
   }
 }

@@ -1,14 +1,13 @@
-_ = require 'underscore'
-$ = require 'jquery'
+_ = require 'lodash'
 Backbone = require 'backbone'
+Backbone.$ = $ = require 'jquery'
 ZeroClipboard = require 'zeroclipboard'
-Backbone.$ = $
+{ ViewBase } = require '../base'
 
-class CopyButton extends Backbone.View
+module.exports =
+class CopyButton extends ViewBase
   initialize: ->
     @client = new ZeroClipboard( document.getElementById('copy-button') )
     @client.on 'beforecopy', (ev) =>
       text = $('#textarea').val()
       @$el.attr 'data-clipboard-text', text
-
-module.exports = CopyButton

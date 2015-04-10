@@ -1,13 +1,11 @@
-_ = require 'underscore'
-$ = require 'jquery'
+_ = require 'lodash'
 Backbone = require 'backbone'
-Backbone.$ = $
-
-Note = require './../model/note'
+Backbone.$ = $ = require 'jquery'
 require 'backbone.localstorage'
+{ CollectionBase } = require '../base'
+Note = require './../model/note'
 
-class Notes extends Backbone.Collection
+module.exports =
+class Notes extends CollectionBase
   model: Note
   localStorage: new Backbone.LocalStorage 'mdraft'
-
-module.exports = Notes

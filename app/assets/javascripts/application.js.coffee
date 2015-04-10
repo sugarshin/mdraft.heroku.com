@@ -1,14 +1,14 @@
 #= require zeroclipboard
 
-Notes = require './collection/notes'
-AppView = require './view/appview'
-NoteListView = require './view/notelistview'
-NoteBody = require './view/notebody'
-NewButton = require './view/newbutton'
-DeleteButton = require './view/deletebutton'
-CopyButton = require './view/copybutton'
-Markdown = require './view/markdown'
-AllCheck = require './view/allcheck'
+Notes = require 'collection/notes'
+AppView = require 'view/appview'
+NoteListView = require 'view/notelistview'
+NoteBody = require 'view/notebody'
+NewButton = require 'view/newbutton'
+DeleteButton = require 'view/deletebutton'
+CopyButton = require 'view/copybutton'
+Markdown = require 'view/markdown'
+AllCheck = require 'view/allcheck'
 
 appView = new AppView
 
@@ -66,7 +66,7 @@ unless localStorage.getItem 'mdraftInitialize'
 
 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
 
-[リンク](http://tsumikiinc.github.io/mdraft/public/)
+[リンク](//tsumikiinc.github.io/mdraft/public/)
 
 
 > blockquote blockquote blockquote blockquote
@@ -79,7 +79,7 @@ unless localStorage.getItem 'mdraftInitialize'
 
     code block
 
-![画像](http://blog.tsumikiinc.com/img/logo.png)
+![画像](//blog.tsumikiinc.com/img/logo.png)
 
 リスト
 
@@ -105,10 +105,9 @@ unless localStorage.getItem 'mdraftInitialize'
 </table>
   '''
 
-  notes.add(
+  notes.add
     title: 'サンプル'
     body: body
-  )
 
   localStorage.setItem 'mdraftInitialize', true
 
@@ -129,10 +128,9 @@ unless localStorage.getItem 'mdraftTopic1'
 
 <p>MTのマークダウンでもすでにサポートされているのでそのままコピペしていただいて大丈夫です</p>
   '''
-  notes.add(
+  notes.add
     title: '更新情報 11/23'
     body: body
     created: '2014/11/23 00:00'
-  )
 
   localStorage.setItem 'mdraftTopic1', true

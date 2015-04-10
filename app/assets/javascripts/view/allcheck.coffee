@@ -1,9 +1,10 @@
-_ = require 'underscore'
-$ = require 'jquery'
+_ = require 'lodash'
 Backbone = require 'backbone'
-Backbone.$ = $
+Backbone.$ = $ = require 'jquery'
+{ ViewBase } = require '../base'
 
-class AllCheck extends Backbone.View
+module.exports =
+class AllCheck extends ViewBase
   events:
     'click': 'onClick'
 
@@ -31,5 +32,3 @@ class AllCheck extends Backbone.View
 
     @collection.each (model) ->
       model.set 'checked', !model.get('checked')
-
-module.exports = AllCheck

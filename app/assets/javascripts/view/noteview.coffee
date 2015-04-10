@@ -1,12 +1,12 @@
-_ = require 'underscore'
-$ = require 'jquery'
+_ = require 'lodash'
 Backbone = require 'backbone'
+Backbone.$ = $ = require 'jquery'
+{ ViewBase } = require '../base'
 NoteBody = require './notebody'
 Markdown = require './markdown'
 
-Backbone.$ = $
-
-class NoteView extends Backbone.View
+module.exports =
+class NoteView extends ViewBase
   tagName: 'li'
 
   # constructor: ({@model, @el, @$el}) ->
@@ -90,5 +90,3 @@ class NoteView extends Backbone.View
 
   onChangeCheckbox: (ev) ->
     @model.set('checked', @$el.find('.checkbox').prop('checked'))
-
-module.exports = NoteView

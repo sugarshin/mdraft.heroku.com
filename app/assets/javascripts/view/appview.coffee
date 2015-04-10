@@ -1,9 +1,10 @@
-_ = require 'underscore'
-$ = require 'jquery'
+_ = require 'lodash'
 Backbone = require 'backbone'
-Backbone.$ = $
+Backbone.$ = $ = require 'jquery'
+{ ViewBase } = require '../base'
 
-class AppView extends Backbone.View
+module.exports =
+class AppView extends ViewBase
   el: 'body'
 
   initialize: ->
@@ -24,5 +25,3 @@ class AppView extends Backbone.View
 
   onPreivewOpenBtnClick: ->
     @$previewInner.toggle()
-
-module.exports = AppView

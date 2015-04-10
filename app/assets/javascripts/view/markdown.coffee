@@ -1,11 +1,11 @@
+_ = require 'lodash'
 $ = require 'jquery'
-td = require 'throttle-debounce'
 marked = require 'marked'
 
+module.exports =
 class Markdown
   defaults = {}
 
-  # _toHTML = -> @preview.innerHTML = markdown.toHTML @input.value
   _toHTML = -> @preview.innerHTML = marked @input.value
 
   constructor: (@preview, @input, options) ->
@@ -22,10 +22,8 @@ class Markdown
     _toHTML.call @
     return this
 
-  debounceToHtml: td.debounce 250, _toHTML
+  debounceToHtml: _.debounce _toHTML, 250
 
   start: ->
     @_addEventify()
     return this
-
-module.exports = Markdown
