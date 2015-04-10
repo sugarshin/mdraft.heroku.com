@@ -1,0 +1,1796 @@
+@charset "utf-8";/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 19, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 32, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 52, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 65, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 75, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 87, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 95, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 107, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 115, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 124, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 133, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 142, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 151, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 159, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 167, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sup {
+  top: -0.5em;
+}
+
+/* line 171, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 182, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 190, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 201, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 209, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 219, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 227, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 250, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 264, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 275, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 288, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 300, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 309, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 320, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 332, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 344, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 355, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 368, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 377, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 388, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 397, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 406, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 417, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 422, /Users/sato/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/normalize-rails-3.0.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+td,
+th {
+  padding: 0;
+}
+@font-face {
+  font-family: 'octicons';
+  src: url('/assets/octicons-a8e5521aebccef22d7d677d6922c952b.eot?#iefix') format('embedded-opentype'),
+       url('/assets/octicons-7e0967c2f875a9ae7f36c22a4df833de.woff') format('woff'),
+       url('/assets/octicons-fb823ca323994ebcab3a49ea9ff6981d.ttf') format('truetype'),
+       url('/assets/octicons-b09c26c96b4512007982a8ea74cb989e.svg#octicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+
+.octicon is optimized for 16px.
+.mega-octicon is optimized for 32px but can be used larger.
+
+*/
+.octicon {
+  font: normal normal 16px octicons;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.mega-octicon {
+  font: normal normal 32px octicons;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.octicon-alert:before { content: '\f02d'} /*  */
+.octicon-alignment-align:before { content: '\f08a'} /*  */
+.octicon-alignment-aligned-to:before { content: '\f08e'} /*  */
+.octicon-alignment-unalign:before { content: '\f08b'} /*  */
+.octicon-arrow-down:before { content: '\f03f'} /*  */
+.octicon-arrow-left:before { content: '\f040'} /*  */
+.octicon-arrow-right:before { content: '\f03e'} /*  */
+.octicon-arrow-small-down:before { content: '\f0a0'} /*  */
+.octicon-arrow-small-left:before { content: '\f0a1'} /*  */
+.octicon-arrow-small-right:before { content: '\f071'} /*  */
+.octicon-arrow-small-up:before { content: '\f09f'} /*  */
+.octicon-arrow-up:before { content: '\f03d'} /*  */
+.octicon-beer:before { content: '\f069'} /*  */
+.octicon-book:before { content: '\f007'} /*  */
+.octicon-bookmark:before { content: '\f07b'} /*  */
+.octicon-briefcase:before { content: '\f0d3'} /*  */
+.octicon-broadcast:before { content: '\f048'} /*  */
+.octicon-browser:before { content: '\f0c5'} /*  */
+.octicon-bug:before { content: '\f091'} /*  */
+.octicon-calendar:before { content: '\f068'} /*  */
+.octicon-check:before { content: '\f03a'} /*  */
+.octicon-checklist:before { content: '\f076'} /*  */
+.octicon-chevron-down:before { content: '\f0a3'} /*  */
+.octicon-chevron-left:before { content: '\f0a4'} /*  */
+.octicon-chevron-right:before { content: '\f078'} /*  */
+.octicon-chevron-up:before { content: '\f0a2'} /*  */
+.octicon-circle-slash:before { content: '\f084'} /*  */
+.octicon-circuit-board:before { content: '\f0d6'} /*  */
+.octicon-clippy:before { content: '\f035'} /*  */
+.octicon-clock:before { content: '\f046'} /*  */
+.octicon-cloud-download:before { content: '\f00b'} /*  */
+.octicon-cloud-upload:before { content: '\f00c'} /*  */
+.octicon-code:before { content: '\f05f'} /*  */
+.octicon-color-mode:before { content: '\f065'} /*  */
+.octicon-comment-add:before,
+.octicon-comment:before { content: '\f02b'} /*  */
+.octicon-comment-discussion:before { content: '\f04f'} /*  */
+.octicon-credit-card:before { content: '\f045'} /*  */
+.octicon-dash:before { content: '\f0ca'} /*  */
+.octicon-dashboard:before { content: '\f07d'} /*  */
+.octicon-database:before { content: '\f096'} /*  */
+.octicon-device-camera:before { content: '\f056'} /*  */
+.octicon-device-camera-video:before { content: '\f057'} /*  */
+.octicon-device-desktop:before { content: '\f27c'} /*  */
+.octicon-device-mobile:before { content: '\f038'} /*  */
+.octicon-diff:before { content: '\f04d'} /*  */
+.octicon-diff-added:before { content: '\f06b'} /*  */
+.octicon-diff-ignored:before { content: '\f099'} /*  */
+.octicon-diff-modified:before { content: '\f06d'} /*  */
+.octicon-diff-removed:before { content: '\f06c'} /*  */
+.octicon-diff-renamed:before { content: '\f06e'} /*  */
+.octicon-ellipsis:before { content: '\f09a'} /*  */
+.octicon-eye-unwatch:before,
+.octicon-eye-watch:before,
+.octicon-eye:before { content: '\f04e'} /*  */
+.octicon-file-binary:before { content: '\f094'} /*  */
+.octicon-file-code:before { content: '\f010'} /*  */
+.octicon-file-directory:before { content: '\f016'} /*  */
+.octicon-file-media:before { content: '\f012'} /*  */
+.octicon-file-pdf:before { content: '\f014'} /*  */
+.octicon-file-submodule:before { content: '\f017'} /*  */
+.octicon-file-symlink-directory:before { content: '\f0b1'} /*  */
+.octicon-file-symlink-file:before { content: '\f0b0'} /*  */
+.octicon-file-text:before { content: '\f011'} /*  */
+.octicon-file-zip:before { content: '\f013'} /*  */
+.octicon-flame:before { content: '\f0d2'} /*  */
+.octicon-fold:before { content: '\f0cc'} /*  */
+.octicon-gear:before { content: '\f02f'} /*  */
+.octicon-gift:before { content: '\f042'} /*  */
+.octicon-gist:before { content: '\f00e'} /*  */
+.octicon-gist-secret:before { content: '\f08c'} /*  */
+.octicon-git-branch-create:before,
+.octicon-git-branch-delete:before,
+.octicon-git-branch:before { content: '\f020'} /*  */
+.octicon-git-commit:before { content: '\f01f'} /*  */
+.octicon-git-compare:before { content: '\f0ac'} /*  */
+.octicon-git-merge:before { content: '\f023'} /*  */
+.octicon-git-pull-request-abandoned:before,
+.octicon-git-pull-request:before { content: '\f009'} /*  */
+.octicon-globe:before { content: '\f0b6'} /*  */
+.octicon-graph:before { content: '\f043'} /*  */
+.octicon-heart:before { content: '\2665'} /* ♥ */
+.octicon-history:before { content: '\f07e'} /*  */
+.octicon-home:before { content: '\f08d'} /*  */
+.octicon-horizontal-rule:before { content: '\f070'} /*  */
+.octicon-hourglass:before { content: '\f09e'} /*  */
+.octicon-hubot:before { content: '\f09d'} /*  */
+.octicon-inbox:before { content: '\f0cf'} /*  */
+.octicon-info:before { content: '\f059'} /*  */
+.octicon-issue-closed:before { content: '\f028'} /*  */
+.octicon-issue-opened:before { content: '\f026'} /*  */
+.octicon-issue-reopened:before { content: '\f027'} /*  */
+.octicon-jersey:before { content: '\f019'} /*  */
+.octicon-jump-down:before { content: '\f072'} /*  */
+.octicon-jump-left:before { content: '\f0a5'} /*  */
+.octicon-jump-right:before { content: '\f0a6'} /*  */
+.octicon-jump-up:before { content: '\f073'} /*  */
+.octicon-key:before { content: '\f049'} /*  */
+.octicon-keyboard:before { content: '\f00d'} /*  */
+.octicon-law:before { content: '\f0d8'} /*  */
+.octicon-light-bulb:before { content: '\f000'} /*  */
+.octicon-link:before { content: '\f05c'} /*  */
+.octicon-link-external:before { content: '\f07f'} /*  */
+.octicon-list-ordered:before { content: '\f062'} /*  */
+.octicon-list-unordered:before { content: '\f061'} /*  */
+.octicon-location:before { content: '\f060'} /*  */
+.octicon-gist-private:before,
+.octicon-mirror-private:before,
+.octicon-git-fork-private:before,
+.octicon-lock:before { content: '\f06a'} /*  */
+.octicon-logo-github:before { content: '\f092'} /*  */
+.octicon-mail:before { content: '\f03b'} /*  */
+.octicon-mail-read:before { content: '\f03c'} /*  */
+.octicon-mail-reply:before { content: '\f051'} /*  */
+.octicon-mark-github:before { content: '\f00a'} /*  */
+.octicon-markdown:before { content: '\f0c9'} /*  */
+.octicon-megaphone:before { content: '\f077'} /*  */
+.octicon-mention:before { content: '\f0be'} /*  */
+.octicon-microscope:before { content: '\f089'} /*  */
+.octicon-milestone:before { content: '\f075'} /*  */
+.octicon-mirror-public:before,
+.octicon-mirror:before { content: '\f024'} /*  */
+.octicon-mortar-board:before { content: '\f0d7'} /*  */
+.octicon-move-down:before { content: '\f0a8'} /*  */
+.octicon-move-left:before { content: '\f074'} /*  */
+.octicon-move-right:before { content: '\f0a9'} /*  */
+.octicon-move-up:before { content: '\f0a7'} /*  */
+.octicon-mute:before { content: '\f080'} /*  */
+.octicon-no-newline:before { content: '\f09c'} /*  */
+.octicon-octoface:before { content: '\f008'} /*  */
+.octicon-organization:before { content: '\f037'} /*  */
+.octicon-package:before { content: '\f0c4'} /*  */
+.octicon-paintcan:before { content: '\f0d1'} /*  */
+.octicon-pencil:before { content: '\f058'} /*  */
+.octicon-person-add:before,
+.octicon-person-follow:before,
+.octicon-person:before { content: '\f018'} /*  */
+.octicon-pin:before { content: '\f041'} /*  */
+.octicon-playback-fast-forward:before { content: '\f0bd'} /*  */
+.octicon-playback-pause:before { content: '\f0bb'} /*  */
+.octicon-playback-play:before { content: '\f0bf'} /*  */
+.octicon-playback-rewind:before { content: '\f0bc'} /*  */
+.octicon-plug:before { content: '\f0d4'} /*  */
+.octicon-repo-create:before,
+.octicon-gist-new:before,
+.octicon-file-directory-create:before,
+.octicon-file-add:before,
+.octicon-plus:before { content: '\f05d'} /*  */
+.octicon-podium:before { content: '\f0af'} /*  */
+.octicon-primitive-dot:before { content: '\f052'} /*  */
+.octicon-primitive-square:before { content: '\f053'} /*  */
+.octicon-pulse:before { content: '\f085'} /*  */
+.octicon-puzzle:before { content: '\f0c0'} /*  */
+.octicon-question:before { content: '\f02c'} /*  */
+.octicon-quote:before { content: '\f063'} /*  */
+.octicon-radio-tower:before { content: '\f030'} /*  */
+.octicon-repo-delete:before,
+.octicon-repo:before { content: '\f001'} /*  */
+.octicon-repo-clone:before { content: '\f04c'} /*  */
+.octicon-repo-force-push:before { content: '\f04a'} /*  */
+.octicon-gist-fork:before,
+.octicon-repo-forked:before { content: '\f002'} /*  */
+.octicon-repo-pull:before { content: '\f006'} /*  */
+.octicon-repo-push:before { content: '\f005'} /*  */
+.octicon-rocket:before { content: '\f033'} /*  */
+.octicon-rss:before { content: '\f034'} /*  */
+.octicon-ruby:before { content: '\f047'} /*  */
+.octicon-screen-full:before { content: '\f066'} /*  */
+.octicon-screen-normal:before { content: '\f067'} /*  */
+.octicon-search-save:before,
+.octicon-search:before { content: '\f02e'} /*  */
+.octicon-server:before { content: '\f097'} /*  */
+.octicon-settings:before { content: '\f07c'} /*  */
+.octicon-log-in:before,
+.octicon-sign-in:before { content: '\f036'} /*  */
+.octicon-log-out:before,
+.octicon-sign-out:before { content: '\f032'} /*  */
+.octicon-split:before { content: '\f0c6'} /*  */
+.octicon-squirrel:before { content: '\f0b2'} /*  */
+.octicon-star-add:before,
+.octicon-star-delete:before,
+.octicon-star:before { content: '\f02a'} /*  */
+.octicon-steps:before { content: '\f0c7'} /*  */
+.octicon-stop:before { content: '\f08f'} /*  */
+.octicon-repo-sync:before,
+.octicon-sync:before { content: '\f087'} /*  */
+.octicon-tag-remove:before,
+.octicon-tag-add:before,
+.octicon-tag:before { content: '\f015'} /*  */
+.octicon-telescope:before { content: '\f088'} /*  */
+.octicon-terminal:before { content: '\f0c8'} /*  */
+.octicon-three-bars:before { content: '\f05e'} /*  */
+.octicon-tools:before { content: '\f031'} /*  */
+.octicon-trashcan:before { content: '\f0d0'} /*  */
+.octicon-triangle-down:before { content: '\f05b'} /*  */
+.octicon-triangle-left:before { content: '\f044'} /*  */
+.octicon-triangle-right:before { content: '\f05a'} /*  */
+.octicon-triangle-up:before { content: '\f0aa'} /*  */
+.octicon-unfold:before { content: '\f039'} /*  */
+.octicon-unmute:before { content: '\f0ba'} /*  */
+.octicon-versions:before { content: '\f064'} /*  */
+.octicon-remove-close:before,
+.octicon-x:before { content: '\f081'} /*  */
+.octicon-zap:before { content: '\26A1'} /* ⚡ */
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ * require_tree .
+ * require_self
+
+
+ */
+
+
+
+
+body {
+  background: #ecf0f1;
+  color: #2c3e50;
+  font-family: "Open Sans" "Helvetica Neue" Helvetica Arial YuGothic "游ゴシック" "Hiragino Kaku Gothic ProN" "ヒラギノ角ゴ ProN" "Hiragino Kaku Gothic Pro" Meiryo "メイリオ" sans-serif;
+  font-size: 13px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.article_header_block .detail_wrapper {
+  display: none;
+}
+
+.tsumiki-blog-entry-head {
+  max-width: 685px;
+}
+
+.tsumiki-blog-entry-head .article_header_block {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 22px;
+  background: #fff;
+  margin: 0 0 10px;
+  position: relative;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.tsumiki-blog-entry-head .article_header_block:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #000;
+  border-left-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-border-radius: 3px 0 0;
+  border-radius: 3px 0 0;
+}
+
+.tsumiki-blog-entry-head .article_header_block .article_link {
+  position: relative;
+  z-index: 4;
+  display: block;
+}
+
+.tsumiki-blog-entry-head .article_header_block .article_link:hover {
+  text-decoration: none;
+}
+
+.tsumiki-blog-entry-head .article_header_block .article_link:hover+.hover_border {
+  display: block;
+}
+
+.tsumiki-blog-entry-head .article_header_block .article_link time {
+  top: 0;
+  left: 0;
+}
+
+.tsumiki-blog-entry-head .article_header_block h1 {
+  font-size: 21px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.tsumiki-blog-entry-head .article_header_block time {
+  position: absolute;
+  z-index: 4;
+  top: 22px;
+  left: 22px;
+  line-height: 1;
+  font-family: "Fredoka One" cursive;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+}
+
+.tsumiki-blog-entry-head .article_header_block .detail_wrapper {
+  display: block;
+  position: relative;
+  z-index: 4;
+  text-align: right;
+}
+
+.tsumiki-blog-entry-head .article_header_block .detail_wrapper>* {
+  vertical-align: middle;
+}
+
+.tsumiki-blog-entry-head .article_header_block .detail_wrapper .author_pic {
+  width: 30px;
+  height: auto;
+  margin: 0 0 0 .5em;
+  vertical-align: middle;
+}
+
+.tsumiki-blog-entry-body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 22px;
+  background: #fff;
+  margin: 0 0 10px;
+  position: relative;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #333;
+  font-family: "Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN","Hiragino Kaku Gothic Pro",Meiryo,"メイリオ",sans-serif;
+  font-size: 14px;
+}
+
+.tsumiki-blog-entry-body>:nth-child(1) {
+  margin-top: 0!important;
+}
+
+.tsumiki-blog-entry-body figure {
+  margin: 0;
+}
+
+.tsumiki-blog-entry-body h1 {
+  font-size: 2em;
+  margin-top: 4em;
+}
+
+.tsumiki-blog-entry-body h2 {
+  font-size: 1.7em;
+  margin-top: 3.4em;
+}
+
+.tsumiki-blog-entry-body h3 {
+  font-size: 1.4em;
+  margin-top: 2.8em;
+}
+
+.tsumiki-blog-entry-body h4 {
+  font-size: 1.2em;
+  margin-top: 2.4em;
+}
+
+.tsumiki-blog-entry-body h5 {
+  font-size: 1.1em;
+  margin-top: 2.2em;
+}
+
+.tsumiki-blog-entry-body h6 {
+  font-size: 1em;
+  margin-top: 2em;
+}
+
+.tsumiki-blog-entry-body h1,.tsumiki-blog-entry-body h2,.tsumiki-blog-entry-body h3,.tsumiki-blog-entry-body h4,.tsumiki-blog-entry-body h5,.tsumiki-blog-entry-body h6,.tsumiki-blog-entry-body p {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.tsumiki-blog-entry-body h1:after,.tsumiki-blog-entry-body h2:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  margin-top: .5em;
+  background: url(/assets/t-blog/border-1e5be4851b5c60441c2663b338eaf727.png);
+}
+
+.tsumiki-blog-entry-body p {
+  line-height: 1.7;
+}
+
+.tsumiki-blog-entry-body dl,.tsumiki-blog-entry-body ol,.tsumiki-blog-entry-body ul {
+  line-height: 2;
+}
+
+.tsumiki-blog-entry-body .is_col_list {
+  overflow: hidden;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt {
+  clear: left;
+  float: left;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_1 {
+  width: 1em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_2 {
+  width: 2em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_3 {
+  width: 3em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_4 {
+  width: 4em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_5 {
+  width: 5em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_6 {
+  width: 6em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_7 {
+  width: 7em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_8 {
+  width: 8em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_9 {
+  width: 9em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_10 {
+  width: 10em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_11 {
+  width: 11em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_12 {
+  width: 12em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_13 {
+  width: 13em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_14 {
+  width: 14em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_15 {
+  width: 15em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_16 {
+  width: 16em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_17 {
+  width: 17em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_18 {
+  width: 18em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_19 {
+  width: 19em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_20 {
+  width: 20em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_21 {
+  width: 21em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_22 {
+  width: 22em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_23 {
+  width: 23em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_24 {
+  width: 24em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_25 {
+  width: 25em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_26 {
+  width: 26em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_27 {
+  width: 27em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_28 {
+  width: 28em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_29 {
+  width: 29em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_30 {
+  width: 30em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_31 {
+  width: 31em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_32 {
+  width: 32em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_33 {
+  width: 33em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_34 {
+  width: 34em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_35 {
+  width: 35em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_36 {
+  width: 36em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_37 {
+  width: 37em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_38 {
+  width: 38em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_39 {
+  width: 39em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_40 {
+  width: 40em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_41 {
+  width: 41em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_42 {
+  width: 42em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_43 {
+  width: 43em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_44 {
+  width: 44em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_45 {
+  width: 45em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_46 {
+  width: 46em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_47 {
+  width: 47em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_48 {
+  width: 48em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_49 {
+  width: 49em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dt.char_length_50 {
+  width: 50em;
+}
+
+.tsumiki-blog-entry-body .is_col_list dd {
+  float: left;
+  width: auto;
+  margin-left: 2em;
+}
+
+.tsumiki-blog-entry-body ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tsumiki-blog-entry-body ul li {
+  padding-left: 40px;
+}
+
+.tsumiki-blog-entry-body ul li:nth-child(3n+1) {
+  background: url(/assets/t-blog/ul-c-5493d37fcd235f99509bea8853ea3c5b.png) 1.4em center no-repeat;
+  -webkit-background-size: 12px;
+  -moz-background-size: 12px;
+  background-size: 12px;
+}
+
+.tsumiki-blog-entry-body ul li:nth-child(3n+2) {
+  background: url(/assets/t-blog/ul-t-543c28c60e7585258b4516da66639fa8.png) 1.4em center no-repeat;
+  -webkit-background-size: 12px;
+  -moz-background-size: 12px;
+  background-size: 12px;
+}
+
+.tsumiki-blog-entry-body ul li:nth-child(3n+3) {
+  background: url(/assets/t-blog/ul-r-2913f8fce45995ef25c7429b189ded6d.png) 1.4em center no-repeat;
+  -webkit-background-size: 12px;
+  -moz-background-size: 12px;
+  background-size: 12px;
+}
+
+.tsumiki-blog-entry-body ol {
+  list-style: none;
+  padding: 0;
+  counter-reset: num;
+}
+
+.tsumiki-blog-entry-body ol li {
+  padding-left: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.tsumiki-blog-entry-body ol li::before {
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  position: absolute;
+  left: 1.5em;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  content: counter(num,decimal);
+  counter-increment: num;
+  text-align: center;
+  font-family: "Fredoka One" cursive;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  background: url(/assets/t-blog/ol-bg-be727c3e0eb226c5e4f1aed9c02c8543.png) center no-repeat;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  background-size: 100% auto;
+  font-size: .8em;
+}
+
+.tsumiki-blog-entry-body blockquote {
+  background: #f1ece7;
+  margin: 1em 0;
+  padding: 6% 12%;
+  position: relative;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.tsumiki-blog-entry-body blockquote:before {
+  content: "";
+  display: block;
+  width: 5.6%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(/assets/t-blog/qf-e178f5c0fb1dc3b19dd4da982c1ecfc4.png) center no-repeat;
+  padding-bottom: 6.8%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
+  margin: 4.2% 0 0 4.2%;
+}
+
+.tsumiki-blog-entry-body blockquote:after {
+  content: "";
+  display: block;
+  width: 5.6%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url(/assets/t-blog/qb-bc203d6c92d1bf3507a95e1d9e7ed3ac.png) center no-repeat;
+  padding-bottom: 6.8%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
+  margin: 0 4.2% 4.2% 0;
+}
+
+.tsumiki-blog-entry-body blockquote>* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.tsumiki-blog-entry-body a {
+  color: #11b4af;
+  text-decoration: underline;
+}
+
+.tsumiki-blog-entry-body a:hover {
+  text-decoration: none;
+}
+
+.tsumiki-blog-entry-body a[href$=".pdf"]:after {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url(/assets/t-blog/icon-pdf-g-944b991ddbe203e136f745307ae6e769.png) center no-repeat;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+
+.tsumiki-blog-entry-body a[target="_blank"]:after {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url(/assets/t-blog/icon-blank-g-846792517358fd4162131bd9807ca924.png) center no-repeat;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+
+.tsumiki-blog-entry-body .entry_body_btn {
+  display: block;
+  background: #11b4af;
+  max-width: 500px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 26px 0;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin: 2em auto;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.3em;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.tsumiki-blog-entry-body .entry_body_btn:after {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url(/assets/t-blog/icon-blank-w-c5501213eba3f4e2ded47a9ffdc9d7c7.png) center no-repeat;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+
+.tsumiki-blog-entry-body .entry_body_btn:hover {
+  opacity: .9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+}
+
+.tsumiki-blog-entry-body .entry_body_btn[href$=".pdf"]:after {
+  background: url(/assets/t-blog/icon-pdf-w-d369172b04d77f99f2a987dbedd416e5.png) center no-repeat;
+}
+
+.tsumiki-blog-entry-body .entry_body_btn[target="_blank"]:after {
+  background: url(/assets/t-blog/icon-blank-w-c5501213eba3f4e2ded47a9ffdc9d7c7.png) center no-repeat;
+}
+
+.tsumiki-blog-entry-body hr {
+  width: 15%;
+  margin: 4em auto;
+  border: none;
+  height: 5px;
+  background: url(/assets/t-blog/border-1e5be4851b5c60441c2663b338eaf727.png);
+}
+
+.tsumiki-blog-entry-body strong {
+  color: #e84244;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.tsumiki-blog-entry-body em {
+  color: #666;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.tsumiki-blog-entry-body q {
+  font-style: italic;
+  color: #666;
+}
+
+.tsumiki-blog-entry-body q:before {
+  content: "“";
+}
+
+.tsumiki-blog-entry-body q:after {
+  content: "”";
+}
+
+.tsumiki-blog-entry-body img {
+  max-width: 100%;
+  height: auto;
+  margin: 2em 0;
+  vertical-align: top;
+}
+
+.tsumiki-blog-entry-body pre {
+  background: #23241f;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: .5em;
+}
+
+.tsumiki-blog-entry-body pre code {
+  background: 0 0;
+  padding: .5em;
+}
+
+.tsumiki-blog-entry-body code {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font-family: "Source Code Pro",monospace;
+  padding: .2em .5em;
+  color: #f8f8f2;
+  background: #23241f;
+}
+
+.tsumiki-blog-entry-body table {
+  width: 100%;
+  font-size: 1em;
+  word-break: break-all;
+}
+
+.tsumiki-blog-entry-body thead th {
+  background: #f19419;
+  color: #fff;
+}
+
+.tsumiki-blog-entry-body tbody th {
+  background: #fbe8b1;
+}
+
+.tsumiki-blog-entry-body tbody td {
+  background: #f1ece7;
+}
+
+.tsumiki-blog-entry-body td,.tsumiki-blog-entry-body th {
+  -webkit-border-radius: 9px 8px 6px;
+  border-radius: 9px 8px 6px;
+  padding: 10px;
+  text-align: left;
+  border: 3px solid #fff;
+}
+
+.tsumiki-blog-entry-body td.char-length-1,.tsumiki-blog-entry-body th.char-length-1 {
+  width: 1em;
+}
+
+.tsumiki-blog-entry-body td.char-length-2,.tsumiki-blog-entry-body th.char-length-2 {
+  width: 2em;
+}
+
+.tsumiki-blog-entry-body td.char-length-3,.tsumiki-blog-entry-body th.char-length-3 {
+  width: 3em;
+}
+
+.tsumiki-blog-entry-body td.char-length-4,.tsumiki-blog-entry-body th.char-length-4 {
+  width: 4em;
+}
+
+.tsumiki-blog-entry-body td.char-length-5,.tsumiki-blog-entry-body th.char-length-5 {
+  width: 5em;
+}
+
+.tsumiki-blog-entry-body td.char-length-6,.tsumiki-blog-entry-body th.char-length-6 {
+  width: 6em;
+}
+
+.tsumiki-blog-entry-body td.char-length-7,.tsumiki-blog-entry-body th.char-length-7 {
+  width: 7em;
+}
+
+.tsumiki-blog-entry-body td.char-length-8,.tsumiki-blog-entry-body th.char-length-8 {
+  width: 8em;
+}
+
+.tsumiki-blog-entry-body td.char-length-9,.tsumiki-blog-entry-body th.char-length-9 {
+  width: 9em;
+}
+
+.tsumiki-blog-entry-body td.char-length-10,.tsumiki-blog-entry-body th.char-length-10 {
+  width: 10em;
+}
+
+.tsumiki-blog-entry-body td.char-length-11,.tsumiki-blog-entry-body th.char-length-11 {
+  width: 11em;
+}
+
+.tsumiki-blog-entry-body td.char-length-12,.tsumiki-blog-entry-body th.char-length-12 {
+  width: 12em;
+}
+
+.tsumiki-blog-entry-body td.char-length-13,.tsumiki-blog-entry-body th.char-length-13 {
+  width: 13em;
+}
+
+.tsumiki-blog-entry-body td.char-length-14,.tsumiki-blog-entry-body th.char-length-14 {
+  width: 14em;
+}
+
+.tsumiki-blog-entry-body td.char-length-15,.tsumiki-blog-entry-body th.char-length-15 {
+  width: 15em;
+}
+
+.tsumiki-blog-entry-body td.char-length-16,.tsumiki-blog-entry-body th.char-length-16 {
+  width: 16em;
+}
+
+.tsumiki-blog-entry-body td.char-length-17,.tsumiki-blog-entry-body th.char-length-17 {
+  width: 17em;
+}
+
+.tsumiki-blog-entry-body td.char-length-18,.tsumiki-blog-entry-body th.char-length-18 {
+  width: 18em;
+}
+
+.tsumiki-blog-entry-body td.char-length-19,.tsumiki-blog-entry-body th.char-length-19 {
+  width: 19em;
+}
+
+.tsumiki-blog-entry-body td.char-length-20,.tsumiki-blog-entry-body th.char-length-20 {
+  width: 20em;
+}
+
+.tsumiki-blog-entry-body td.char-length-21,.tsumiki-blog-entry-body th.char-length-21 {
+  width: 21em;
+}
+
+.tsumiki-blog-entry-body td.char-length-22,.tsumiki-blog-entry-body th.char-length-22 {
+  width: 22em;
+}
+
+.tsumiki-blog-entry-body td.char-length-23,.tsumiki-blog-entry-body th.char-length-23 {
+  width: 23em;
+}
+
+.tsumiki-blog-entry-body td.char-length-24,.tsumiki-blog-entry-body th.char-length-24 {
+  width: 24em;
+}
+
+.tsumiki-blog-entry-body td.char-length-25,.tsumiki-blog-entry-body th.char-length-25 {
+  width: 25em;
+}
+
+.tsumiki-blog-entry-body td.char-length-26,.tsumiki-blog-entry-body th.char-length-26 {
+  width: 26em;
+}
+
+.tsumiki-blog-entry-body td.char-length-27,.tsumiki-blog-entry-body th.char-length-27 {
+  width: 27em;
+}
+
+.tsumiki-blog-entry-body td.char-length-28,.tsumiki-blog-entry-body th.char-length-28 {
+  width: 28em;
+}
+
+.tsumiki-blog-entry-body td.char-length-29,.tsumiki-blog-entry-body th.char-length-29 {
+  width: 29em;
+}
+
+.tsumiki-blog-entry-body td.char-length-30,.tsumiki-blog-entry-body th.char-length-30 {
+  width: 30em;
+}
+
+.tsumiki-blog-entry-body td.char-length-31,.tsumiki-blog-entry-body th.char-length-31 {
+  width: 31em;
+}
+
+.tsumiki-blog-entry-body td.char-length-32,.tsumiki-blog-entry-body th.char-length-32 {
+  width: 32em;
+}
+
+.tsumiki-blog-entry-body td.char-length-33,.tsumiki-blog-entry-body th.char-length-33 {
+  width: 33em;
+}
+
+.tsumiki-blog-entry-body td.char-length-34,.tsumiki-blog-entry-body th.char-length-34 {
+  width: 34em;
+}
+
+.tsumiki-blog-entry-body td.char-length-35,.tsumiki-blog-entry-body th.char-length-35 {
+  width: 35em;
+}
+
+.tsumiki-blog-entry-body td.char-length-36,.tsumiki-blog-entry-body th.char-length-36 {
+  width: 36em;
+}
+
+.tsumiki-blog-entry-body td.char-length-37,.tsumiki-blog-entry-body th.char-length-37 {
+  width: 37em;
+}
+
+.tsumiki-blog-entry-body td.char-length-38,.tsumiki-blog-entry-body th.char-length-38 {
+  width: 38em;
+}
+
+.tsumiki-blog-entry-body td.char-length-39,.tsumiki-blog-entry-body th.char-length-39 {
+  width: 39em;
+}
+
+.tsumiki-blog-entry-body td.char-length-40,.tsumiki-blog-entry-body th.char-length-40 {
+  width: 40em;
+}
+
+.tsumiki-blog-entry-body td.char-length-41,.tsumiki-blog-entry-body th.char-length-41 {
+  width: 41em;
+}
+
+.tsumiki-blog-entry-body td.char-length-42,.tsumiki-blog-entry-body th.char-length-42 {
+  width: 42em;
+}
+
+.tsumiki-blog-entry-body td.char-length-43,.tsumiki-blog-entry-body th.char-length-43 {
+  width: 43em;
+}
+
+.tsumiki-blog-entry-body td.char-length-44,.tsumiki-blog-entry-body th.char-length-44 {
+  width: 44em;
+}
+
+.tsumiki-blog-entry-body td.char-length-45,.tsumiki-blog-entry-body th.char-length-45 {
+  width: 45em;
+}
+
+.tsumiki-blog-entry-body td.char-length-46,.tsumiki-blog-entry-body th.char-length-46 {
+  width: 46em;
+}
+
+.tsumiki-blog-entry-body td.char-length-47,.tsumiki-blog-entry-body th.char-length-47 {
+  width: 47em;
+}
+
+.tsumiki-blog-entry-body td.char-length-48,.tsumiki-blog-entry-body th.char-length-48 {
+  width: 48em;
+}
+
+.tsumiki-blog-entry-body td.char-length-49,.tsumiki-blog-entry-body th.char-length-49 {
+  width: 49em;
+}
+
+.tsumiki-blog-entry-body td.char-length-50,.tsumiki-blog-entry-body th.char-length-50 {
+  width: 50em;
+}
+
+.tsumiki-blog-entry-body td.align-center,.tsumiki-blog-entry-body th.align-center {
+  text-align: center;
+}
+
+.tsumiki-blog-entry-body td.align-right,.tsumiki-blog-entry-body th.align-right {
+  text-align: right;
+}
+
+@media only screen and (max-width:999px) {
+  .article_header_block {
+    width: 100%;
+  };
+}
+
+@media only screen and (max-width:640px) {
+  .category_label+.author_name {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .category_label+.author_name:before {
+    display: none;
+  };
+}
+
+@media only screen and (max-width:480px) {
+  .article_header_block h1 {
+    font-size: 18px;
+  };
+}
+
+body,html {
+  height: 100%;
+}
+
+.control {
+  position: absolute;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: rgba(0,0,0,.1);
+  z-index: 1;
+}
+
+.control h1 {
+  margin: 0;
+  padding: 4px 8px;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 36px 0 0;
+  display: table;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header {
+  padding-left: 8px;
+  position: relative;
+}
+
+.delete {
+  float: right;
+}
+
+.list {
+  width: 25%;
+  float: left;
+}
+
+.text {
+  width: 75%;
+  float: left;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.side {
+  display: table-cell;
+  vertical-align: top;
+  height: 100%;
+  width: 20%;
+  overflow: auto;
+  padding-bottom: 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-right: solid 8px transparent;
+}
+
+.noteList {
+  list-style: none;
+  padding: 0;
+  border-top: 1px solid #ccc;
+  margin: 8px 0 0;
+  overflow: auto;
+  height: 95%;
+}
+
+.noteList li {
+  position: relative;
+  line-height: 3;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.noteList li.ac {
+  background: rgba(0,0,0,.1);
+}
+
+.noteList .checkbox {
+  margin: 0 0 0 5%;
+  width: 10%;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.noteList .title {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+  line-height: 1.5;
+  padding-left: 20%;
+}
+
+.noteList .title-editor {
+  display: none;
+  position: absolute;
+  width: 70%;
+  top: 30px;
+  left: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+  padding: 8px;
+  border: 0;
+  outline: 0;
+  -webkit-box-shadow: 1px 1px 0 2px #999;
+  box-shadow: 1px 1px 0 2px #999;
+  z-index: 2;
+}
+
+.noteList .created {
+  line-height: 2;
+  display: block;
+  text-align: right;
+  padding-right: 8px;
+  color: #bdc3c7;
+}
+
+.textarea-rapper {
+  width: 45%;
+  height: 100%;
+  display: table-cell;
+  border-right: solid 8px transparent;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.preview-wrapper {
+  width: 35%;
+  height: 100%;
+  overflow: auto;
+  display: table-cell;
+  vertical-align: top;
+  border-right: solid 8px transparent;
+  padding-bottom: 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.preview-btns {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.preview-btns label {
+  width: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: right;
+  line-height: 1.7;
+}
+
+.preview-inner {
+  display: none;
+  height: 95%;
+  overflow: auto;
+}

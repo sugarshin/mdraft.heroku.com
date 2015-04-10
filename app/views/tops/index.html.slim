@@ -1,0 +1,41 @@
+.control
+  h1 Mdraft
+.wrapper
+  .side
+    .header
+      button#new
+        span.octicon.octicon-plus
+      button#check-all
+        span.octicon.octicon-check
+      button#delete.delete
+        span.octicon.octicon-trashcan
+
+    ul.noteList
+
+  #textareaWrapper.textarea-rapper
+
+  .preview-wrapper
+    .preview-btns
+      button#preview-open title="Markdown preview"
+        span.octicon.octicon-eye
+      button#copy-button data-clipboard-text="" title="Copy to clipboard"
+        span.octicon.octicon-clippy
+      label
+        input.t-btn type="checkbox" checked="checked"
+        | つみきブログ
+
+    .preview-inner
+      header.article_header_block.coding
+        h1.js-title-bind
+        time.js-time-bind
+        .detail_wrapper
+          a href="#" カテゴリー
+          span.author_name
+            a href="#"
+              span.author_display_name 名前
+              span.team_name チーム名
+              == image_tag 't-blog/user.png', :class => 'author_pic'
+
+      #preview.preview
+
+== javascript_include_tag 'application'
